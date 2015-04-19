@@ -19,7 +19,7 @@
         <dependency>
             <groupId>com.google.android</groupId>
             <artifactId>android</artifactId>
-            <version>4.1.1.4</version>
+            <version>4.4</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -29,7 +29,7 @@
         </dependency>
     </dependencies>
 
-<!--    <distributionManagement>
+    <distributionManagement>
         <repository>
             <id>nexus-deploy</id>
             <name>Nexus Release Repository</name>
@@ -40,7 +40,7 @@
             <name>Nexus Snapshot Repository</name>
             <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
-    </distributionManagement>-->
+    </distributionManagement>
 
     <build>
         <plugins>

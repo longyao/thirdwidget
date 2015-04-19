@@ -47,7 +47,7 @@ public class RippleView extends RelativeLayout {
     private int WIDTH;
     private int HEIGHT;
     private int FRAME_RATE = 10;
-    private int DURATION = 400;
+    private int DURATION = 200;
     private int PAINT_ALPHA = 90;
     private Handler canvasHandler;
     private float radiusMax = 0;
@@ -233,7 +233,6 @@ public class RippleView extends RelativeLayout {
             invalidate();
         }
     }
-
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
